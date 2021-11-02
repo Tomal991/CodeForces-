@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int n,p,q,arr[100],count=0;
+    int n,p,q,arr[500],count=0;
     cin>>n>>p;
     for(int i=0; i<p; i++)
     {
