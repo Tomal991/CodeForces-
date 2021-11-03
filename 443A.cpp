@@ -10,7 +10,7 @@ int main()
     sort(s.begin(),s.end());
     for(int i=0; i<s.size()-1; i++)
     {
-        if(s[i]=='{}' || s[i]==',' || s[i]==' ')
+        if(s[i]=='{' || s[i]=='}' || s[i]==',' || s[i]==' ')
         {
             continue;
         }
@@ -22,5 +22,5 @@ int main()
             }
         }
     }
-    cout<<count-1;
+    cout<<count;
 }
